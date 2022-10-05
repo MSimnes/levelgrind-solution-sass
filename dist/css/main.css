@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 6px 0 0 6px;
+  font-variant-caps: all-small-caps;
+  color: white;
+}
+
+header {
+  padding-top: 10px;
+}
+
+.logo {
+  text-align: center;
+  margin: 50% auto;
+  font-size: 0.9rem;
+}
+
+button {
+  float: right;
+  margin: 6px 18px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.5rem;
+  color: #2e4a62;
+  padding: 5px;
+}
+
+section:not(.last-section) {
+  text-align: center;
+}
+
+.top-section {
+  background-color: #2e4a62;
+  padding-top: 0;
+  color: white;
+}
+
+.top-section p {
+  /*   width: 33%; */
+  margin: 0 13% auto;
+  font-size: 0.8rem;
+  height: 200px;
+}
+
+.middle-section-1 {
+  height: 200px;
+}
+
+.middle-section-2 {
+  background-color: #cddbe7;
+  height: 300px;
+}
+
+.middle-section-2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.middle-section-3 {
+  height: 200px;
+}
+
+h2 + p {
+  text-align: center;
+  margin: 0 33% auto;
+  font-size: 0.8rem;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  color: #172531;
+  font-family: "Lato", sans-serif;
+}
+
+.last-section {
+  background-color: #172531;
+  height: 150px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-family: "Lato", sans-serif;
+}
+
+.last-section_left .fa {
+  font-size: 1rem;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.last-section_left a {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.last-section_left span {
+  padding: 10px 5px 0 5px;
+}
+
+/* button {
+  margin: 0 auto;
+} */
+.logo + a {
+  color: #2e4a62;
+}
+
+.midddle_content_button {
+  border: 1px solid grey;
+  border-radius: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #172531;
+  font-weight: bold;
+  font-size: 0.4rem;
+  margin-top: 30px;
+}
+
+.blueBox {
+  height: 100px;
+  width: 170px;
+  background-color: #2e4a62;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.middle_content_right {
+  margin-top: 20px;
+  float: right;
+  width: 50%;
+}
+
+.middle_content_left {
+  margin-top: 20px;
+  float: left;
+  width: 50%;
+}
+
+.middle_content {
+  font-size: 0.5rem;
+}
+.middle_content p {
+  font-size: 0.7rem;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix:before {
+  clear: both;
+}
+
+.last-section_right {
+  float: right;
+  text-align: left;
+  font-size: 0.6rem;
+}
+
+.last-section_left {
+  float: left;
+  text-align: left;
+  font-size: 0.6rem;
+}
+
+footer {
+  margin-top: 50;
+  font-size: 0.6rem;
+  color: white;
+}
+
+footer > span {
+  text-align: left;
+}
+
+footer:nth-child(2) {
+  text-align: right;
+}
+
+.last-section a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.last-section span {
+  color: grey;
+}/*# sourceMappingURL=main.css.map */
